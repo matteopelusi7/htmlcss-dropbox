@@ -125,3 +125,121 @@ header .col {
     padding: 0px 20px;
     margin-bottom: -80px;
 }
+
+/* plan */
+
+#plan {
+    padding-top: 200px;
+}
+
+#plan .title-plan {
+    font-size: 35px;
+}
+
+#plan .radio {
+    display: inline-block;
+    padding: 35px 0px 35px 5px;
+}
+
+#plan .card {
+    padding: 0px 10px;
+    border: 2px solid #eee;
+    margin-bottom: 50px;
+}
+
+#plan .card-body {
+    padding: 25px 25px;
+}
+
+#plan .card-footer {
+    padding: 5px 25px 150px 25px;
+}
+
+.card-header .title-card {
+    border-bottom: 2px solid #eee;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.card .card-body::after {
+    content: '';
+    display: block;
+    background-color: #eee;
+    height: 2px;
+    width: 50px;
+}
+
+.card-body .title-bodycard {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card-body .price-plan {
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+
+.card-body .time-plan {
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.card-body .list-plan li {
+    padding: 15px 0px;
+}
+
+.card-body .button-plan {
+    padding: 0px 40px;
+}
+
+.card-body .buy-now {
+    color: #78abff;
+    text-decoration: underline;
+    padding: 25px 0px;
+}
+
+.card-footer .title-footercard {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card-footer .list-footercard li {
+    padding: 10px 0px;
+}
+
+.card-footer .list-footercard li i {
+    color: #156dff;
+}
+
+#plan .row {
+    margin: 0 -20px;
+}
+
+#plan .row [class*="col"] {
+    padding: 0 5px;
+}
+
+.card-body-1 .fr {
+    float: right;
+}
+
+.card-body-1 .fl {
+    float: left;
+}
+
+.card-body-1 .title-bodycard {
+    font-size: 25px;
+}
+
+.card-body-1 {
+    padding: 25px 25px;
+}
+
+.card-footer-1 .title-footercard {
+    font-size: 14px;
+    padding: 25px 25px 0px 25px;
+}
+
+.card-footer-1 .description-footercard {
+    padding: 20px 25px 30px 25px;
+}
