@@ -46,11 +46,23 @@ img {
 }
 
 .container-medium {
-    width: 1160px;
+    max-width: 1160px;
 }
 
 .container-small {
-    width: 970px;
+    max-width: 970px;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-8 {
+    width: 66.66%;
 }
 
 .button {
@@ -78,4 +90,38 @@ img {
 
 header .col {
     padding: 18px 0px;
+}
+
+/* jumbo */
+
+#jumbo {
+    background-color: #b4d0e7;
+    padding-top: 65px;
+}
+
+#jumbo .title-jumbo {
+    font-size: 65px;
+    padding-bottom: 25px;
+}
+
+#jumbo .description-jumbo {
+    margin-bottom: 25px;
+}
+
+#jumbo .description2-jumbo {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#jumbo i {
+    font-size: 50px;
+}
+
+#jumbo .container-medium {
+    padding: 5px 10px;
+}
+
+#jumbo .col-8 {
+    padding: 0px 20px;
+    margin-bottom: -80px;
 }
