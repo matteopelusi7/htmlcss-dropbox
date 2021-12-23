@@ -243,3 +243,32 @@ header .col {
 .card-footer-1 .description-footercard {
     padding: 20px 25px 30px 25px;
 }
+
+/* partner */
+
+#partner {
+    padding: 60px 0;
+}
+
+#partner .title-partner {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#partner .description-partner {
+    padding-bottom: 20px;
+}
+
+#partner .button.button-partner {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#partner img {
+    padding-right: 50px;
+}
+
+#partner .col-4.partner-text {
+    padding-top: 30px;
+}
