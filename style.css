@@ -61,6 +61,10 @@ img {
     width: 33.33%;
 }
 
+.col-2 {
+    width: 20%;
+}
+
 .col-8 {
     width: 66.66%;
 }
@@ -456,4 +460,51 @@ header .col {
 
 #faq hr {
     color: #ccc;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px 10px;
+}
+
+footer ul li {
+    display: block;
+    padding: 5px 0px;
+}
+
+footer ul a {
+    display: block;
+}
+
+footer ul h6 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+footer .row {
+    margin-bottom: 100px;
+}
+
+footer .row:last-child::before {
+    content: '';
+    display: block;
+    background-color: #ccc;
+    height: 1px;
+    width: 15%;
+}
+
+footer p, i {
+    display: inline-block;
+}
+
+footer i:last-child {
+    vertical-align: text-bottom;
+}
+
+footer .col-12 {
+    color: #ccc;
+    padding-top: 50px;
 }
