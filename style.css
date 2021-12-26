@@ -426,3 +426,34 @@ header .col {
     padding: 0px 30px;
     float: right;
 }
+
+/* faq */
+
+#faq {
+    padding-bottom: 150px;
+}
+
+#faq .title-faq {
+    font-size: 35px;
+    width: 40%;
+    padding: 100px 10px 50px 10px;
+}
+
+#faq .description-faq {
+    font-size: 16px;
+    float: left;
+}
+
+#faq i {
+    font-size: 20px;
+    vertical-align: middle;
+    float: right;
+}
+
+#faq .col-12.pad {
+    padding: 30px 10px;
+}
+
+#faq hr {
+    color: #ccc;
+}
