@@ -272,3 +272,23 @@ header .col {
 #partner .col-4.partner-text {
     padding-top: 30px;
 }
+
+/* business */
+
+#business .title-business {
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+#business .link-business {
+    text-decoration: underline;
+}
+
+#business .description-business {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#business .col-4 {
+    padding: 0px 20px 100px 20px;
+}
