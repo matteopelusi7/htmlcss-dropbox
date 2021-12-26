@@ -292,3 +292,113 @@ header .col {
 #business .col-4 {
     padding: 0px 20px 100px 20px;
 }
+
+/* team */
+
+#team .container-full .row {
+    background-color: #eee;
+}
+
+#team .title-team {
+    font-size: 35px;
+    padding-bottom: 40px;
+    width: 60%;
+}
+
+#team .link-team {
+    text-decoration: underline;
+    color: #5394ff;
+    padding-bottom: 60px;
+}
+
+#team .col-team {
+    padding: 0px 20px;
+}
+
+#team .img-small {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+
+#team .img-team {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    margin: -2px -2px;
+}
+
+#team .img-center {
+    width: 25%;
+    height: 25%;
+}
+
+#team .img-florida {
+    height: 10%;
+}
+
+#team .col-big {
+    width: 40%;
+}
+
+#team .col-small {
+    width: 30%;
+}
+
+#team .color-green {
+    background-color: #a2d39b;
+    border: 20px solid #d0e9cd;
+}
+
+#team .color-brown {
+    background-color: #61082b;
+}
+
+#team .color-blue {
+    background-color: #0093ce;
+}
+
+#team .color-red {
+    background-color: #ff1c1c;
+}
+
+#team .color-red2 {
+    background-color: #d5001f;
+}
+
+#team .color-blue2 {
+    background-color: #b4d0e7;
+}
+
+#team .color-blue3 {
+    background-color: #0d2481;
+}
+
+#team .color-yellow {
+    background-color: #ffd830;
+}
+
+#team .col-big {
+    padding: 80px 50px;
+}
+
+#team .border-team::after {
+    content: '';
+    display: block;
+    background-color: #ccc;
+    height: 2px;
+    width: 50px;
+    margin-top: 50px;
+}
+
+#team .border-team {
+    padding-bottom: 50px;
+}
+
+#team .description-team {
+    padding-bottom: 50px;
+}
