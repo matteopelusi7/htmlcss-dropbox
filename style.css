@@ -402,3 +402,27 @@ header .col {
 #team .description-team {
     padding-bottom: 50px;
 }
+
+/* free-trial */
+
+#free-trial {
+    background-color: #b4d0e7;
+}
+
+#free-trial .col-12 {
+    padding: 150px 10px;
+}
+
+#free-trial .title-free-trial {
+    font-size: 35px;
+    color: #641133;
+    width: 50%;
+    float: left;
+}
+
+#free-trial .button-free-trial {
+    color: black;
+    background-color: white;
+    padding: 0px 30px;
+    float: right;
+}
