@@ -336,6 +336,10 @@ header .col {
     margin: -2px -2px;
 }
 
+#team .change-color {
+    fill: white;
+}
+
 #team .img-center {
     width: 25%;
     height: 25%;
